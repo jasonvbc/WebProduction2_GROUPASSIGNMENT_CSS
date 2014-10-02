@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ecojava Cafe - Contact Us</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" media="all">
+    <meta name="author" content="CatherineLi"/>
+</head>
+
+<body>
+
+<div id="Header" class="Header">
+
+    <!--Header here -->
+    <header id = "header" class="header">
+        <figure id="figure" class="figure">
+        <h1><img src="images/Logo.jpg" width="130" height="130" alt="Logo">Ecojava Caf&eacute;</h1>
+            <figcaption>"Gourmet Cafe and Coffee Roaster"</figcaption>
+        </figure>
+        <nav id="main_nav" class="main_nav">
+            <a href="home.html">Home</a>  |
+            <a href="menu.html">Menu</a>  |
+            <a href="News_Grant.html">News</a>  |
+            <a href="about_us.html">About Us</a>  |
+            <a href="catherine_contactus.html">Contact Us</a>  |
+            <a href="reviews.html">Reviews</a>  |
+        </nav>
+    </header>
+    <hr>
+
+<!--Main -->
+
+
+<div>
+    <h1>We'd Love to Hear From You!</h1>
+    <h2>Contact Us</h2>
+    <h3>Ecojava Coffee</h3>
+    <address>
+        <p>
+            590 W Broadway <br> Vancouver, BC V5Z 1E9 <br> <a href="tel:6048799007">604-879-9007</a><br>
+            <strong>Hours of operation:</strong> <br>
+            Mon-Sat: 7 am - 7pm
+            Sun: 8am - 5pm
+            Email us: <a href="mailto:catherineyangli@outlook.com">contact@ecojava.ca</a>
+        </p>
+    </address>
+</div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.69761885725!2d-123.11728600000001!3d49.263176999999956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673dd3e2b0ab9%3A0x13a8a41314eaad52!2sElysian+Coffee+Broadway!5e0!3m2!1sen!2sca!4v1411261482721" width="400" height="300" frameborder="0" style="border:0"></iframe>
+
+<div id="main" class="main">
+    <h2>
+        Comments? Concerns? Let Us Know!
+    </h2>
+    <p>
+        <form action="#" method = "POST" enctype="multipart/form-data">
+            <fieldset>
+                <p>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name = "fname" placeholder="First Name" required="required" maxlength="15"/>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="you@email.com" required="required" maxlength="10"/>
+                    <label for="comments">Comments</label>
+                    <textarea name="comments" id="comments" rows="5" cols="20" placeholder="Comments here"></textarea>
+                </p>
+                <p>
+                    Gender
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <input type="other">Other</label>
+                    <input type="radio" name="gender" id="other" value="other" checked="checked">
+
+                </p>
+                <p>
+                    <label for="favcoffee">Favorite Coffee</label>
+                    <select name="favcoffee" id="favcoffee">
+                        <option value="dark_roast">Dark Roast</option>
+                        <option value="medium_roast">Medium Roast</option>
+                        <option value="light_roast">Light Roast</option>
+                    </select>
+                </p>
+
+                <p>
+                    <input type="submit">
+                    <input type="reset" value="Reset">
+                </p>
+            </fieldset>
+        </form>
+    </p>
+</div>
+
+<div id="Footer" class="Footer">
+
+    <!--Footer here-->
+    <footer id="footer" class="footer">
+        <p>Copyright Ecojava Cafe &copy 2014. Follow us on
+            <a href="http://www.twitter.com"><img src="images/bird_blue_32.png" height="20" width="20">Twitter</a>,
+            <a href="http://www.facebook.com"><img src="images/FB-f-Logo__blue_29.png" height="20" width="20">Facebook</a>,
+            and <a href="http://www.instagram.com"><img src="images/Instagram_Icon_Large.png" height="20" width="20">Instagram!</a>
+        </p>
+    </footer><!--#footer.footer-->
+</div>
+</body>
+</html>
