@@ -8,31 +8,33 @@
     <link href="styles.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
+    <div class="wrapper_header" id="wrapper_header">
     <header id = "header" class="header">
         <figure id="figure" class="figure">
             <h1><img src="images/Logo.jpg" width="130" height="130" alt="Logo">Ecojava Café</h1>
             <figcaption>"Gourmet Cafe and Coffee Roaster"</figcaption>
         </figure>
         <nav id="main_nav" class="main_nav">
-            <a href="home.html">Home</a>  |
-            <a href="menu.html">Menu</a>  |
-            <a href="News_Grant.html">News</a>  |
-            <a href="about_us.html">About Us</a>  |
-            <a href="catherine_contactus.html">Contact Us</a>  |
-            <a href="reviews.html">Reviews</a>  |
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a>
+                    <ul>
+                        <li><a href="baked_goods.html">Baked Goods</a></li>
+                        <li><a href="desserts.html">Desserts</a></li>
+                        <li><a href="drinks.html">Drinks</a></li>
+                        <li><a href="coffee_beans.html">Coffee Beans</a></li>
+                        <li><a href="nutrition.html">Nutrition Data</a></li>
+                        <li><a href="sandwiches.html">Sandwiches</a></li>
+                    </ul></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="about_us.html">About Us</a> </li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li></li><a href="reviews.html">Reviews</a></li>
+            </ul>
         </nav>
-
-        <ul id="nav" class="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Reviews</a></li>
-        </ul>
     </header>
-    <hr>
-    <div class="Main" id="main" >
+    </div>
+    <div class="wrapper_main" id="wrapper_main">
         <h2> About Us</h2>
         <dl>
             <dt>Who we are</dt>
@@ -57,11 +59,8 @@
                     Keep an open and nurturing communication with all staff members. Smile and have fun!</p>
                 </dd>
         </dl>
-    </div><!--#main.main-->
-    <iframe id="iframe" name="thank_you" src="images/thank.jpg" width="730" height="230">
-        <p>Your browser doesn't support iframe images </p>
-    </iframe>
-    <hr>
+    </div><!--#wrapper_main.wrapper_main-->
+    <div id="wrapper_footer" class="wrapper_footer">
     <footer id="footer" class="footer">
         <p>Copyright Ecojava Café © 2014. Follow us on
             <a href="http://www.twitter.com" ><img src="images/bird_blue_32.png" height="20" width="20" alt="twitter">Twitter</a>,
@@ -69,5 +68,6 @@
             and <a href="http://www.instagram.com"><img src="images/Instagram_Icon_Large.png" height="20" width="20" alt="Instagram">Instagram!</a>
         </p>
     </footer><!--#footer.footer-->
+    </div>
 </body>
 </html>
